@@ -2,7 +2,9 @@ import discord
 from discord.ext import commands
 import sqlite3
 
-token = "MTExNzczNTU5Mjk5NDgxNjAxMA.GeR3gG.XlnjHQ0Lw2gwthh8Q-dy_Avr6IDOJI9rKZi9Gk"
+with open('token.txt', 'r') as file:
+    line = file.readline().strip()
+token = line
 intents = discord.Intents.default()  # Create an instance of Intents
 intents.typing = True  # Adjust the intents based on your bot's requirements
 intents.presences = True
