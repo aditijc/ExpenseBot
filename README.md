@@ -1,2 +1,3 @@
 # ExpenseBot
-A tool to manage budgetary needs in conversation.
+A tool to efficiently manage budgetary needs from Discord.
+(in progress)
